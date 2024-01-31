@@ -36,9 +36,12 @@ function toRoman(num) {
 
 }
 
+
+
 console.log(toRoman(4))
 console.log(toRoman(90))
 
+module.exports = {toRomanLazy, toRoman}
 
 
 
