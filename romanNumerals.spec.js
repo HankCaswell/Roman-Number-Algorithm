@@ -29,7 +29,6 @@ console.log(toRoman(944) === "CMXLIV");
 
 
 
-const toRomanLazy = require("./fibonacci");
 
 
 
