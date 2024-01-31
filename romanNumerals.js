@@ -12,6 +12,7 @@ function toRomanLazy(num) {
   return output;
 }
 
+console.log(toRomanLazy(76))
 
 
 
