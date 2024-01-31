@@ -13,6 +13,23 @@ describe("Lazy Roman Numerals Test", () => {
       expect(toRomanLazy(944)).toBe("DCCCCXXXXIIII");
     });
   });
+
+  describe("Real Roman Numerals Test", () => {
+    test("toRomanLazy(4) === IV", () => {
+      expect(toRoman(4)).toBe("IV");
+    });
+  
+    test("toRomanLazy(150) === CL", () => {
+      expect(toRoman(150)).toBe("CL");
+    });
+  
+    test("toRomanLazy(944) === CMXLIV", () => {
+      expect(toRoman(944)).toBe("CMXLIV");
+    });
+  });
+
+
+
   
 
 
