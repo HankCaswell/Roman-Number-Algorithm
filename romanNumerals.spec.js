@@ -23,7 +23,7 @@ describe("Lazy Roman Numerals Test", () => {
       expect(toRoman(150)).toBe("CL");
     });
   
-    test("toRomanLazy(944) === CMXLIV", () => {
+    test("toRoman(944) === CMXLIV", () => {
       expect(toRoman(944)).toBe("CMXLIV");
     });
   });
@@ -36,13 +36,6 @@ describe("Lazy Roman Numerals Test", () => {
 
 
 
-console.log(toRomanLazy(4) === "IIII");
-console.log(toRomanLazy(150) === "CL");
-console.log(toRomanLazy(944) === "DCCCCXXXXIIII");
-
-console.log(toRoman(4) === "IV");
-console.log(toRoman(150) === "CL");
-console.log(toRoman(944) === "CMXLIV");
 
 
 
